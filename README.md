@@ -7,7 +7,7 @@ The command by [github-copilot-cli](https://www.npmjs.com/package/@githubnext/gi
 I created a fish shell based function that replicated the functionality intended for fish. Mostly copied from the output it seemed they wanted:
 
 ```sh
-eval "$(github-copilot-cli alias -- "/usr/bin/fish")"
+github-copilot-cli alias -- "/usr/bin/fish"
 
 # outputs their config for .bashrc
 ```
