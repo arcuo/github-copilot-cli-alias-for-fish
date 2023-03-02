@@ -1,6 +1,6 @@
 # Reason
 
-eval "$(github-copilot-cli alias -- "$0")"
+`eval "$(github-copilot-cli alias -- "$0")"`
 
 The command by [github-copilot-cli](https://www.npmjs.com/package/@githubnext/github-copilot-cli) to create alias for the terminal and allow running the command directly without copying did not work on fish.
 
