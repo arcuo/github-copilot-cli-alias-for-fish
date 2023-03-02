@@ -17,6 +17,7 @@ function run_copilot
         echo "Apologies! Extracting command failed"
       end
     else
+      cleanup
       return 1
     end
 
